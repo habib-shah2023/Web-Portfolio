@@ -69,7 +69,7 @@ nav ul li a:hover::after{
 .header-text h2{
     font-size: 46px;
     margin-top: 20px;
-    color: #ef0606;
+    color: #f74141;
     font-family: 'Rancho', cursive;
 }
 .header-text h2 span{
@@ -391,7 +391,7 @@ nav .fa-sharp{
         }
 }
 #msg{
-    color: #61b752;
-    margin-top: -40px;
+    color : #61b752 ;
+    margin-top : -40px;
     display: block;
 }
