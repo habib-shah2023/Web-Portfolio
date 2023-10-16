@@ -7,6 +7,7 @@
     <title> Personal Portfolio Website </title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3fc7123b85.js" crossorigin="anonymous"></script> <!--these are kits from fontawesome site-->
+    </style>
 </head>
 <body>
     <div id="header">
@@ -24,8 +25,9 @@
                 <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <h2><span class="input"></span></h2>
-                <h1>Hi, I'm <span>HABIB SHAH</span><br> From India</h1>
+                <!-- Automate thing -->
+                <h2>Coding is <span class="input"></span><i class="fa-solid fa-heart"></i></h2>
+                <h1>Hey , I'm <span>HABIB SHAH</span><br> From India</h1>
             </div>
         </div>
     </div>
@@ -52,9 +54,9 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Software-developer</span><br> Designing Software with C/C++</li>
+                            <li><span>Software-developer</span><br>Designing Software with C/C++</li>
                             <li><span>Data-management</span><br>Data-management with SQL/MY SQL</li>
-                            <li><span>Data-structure</span><br> Experience of Data Data-structure </li>
+                            <li><span>Data-structure</span><br>Experience of Data Data-structure </li>
                         </ul>
                     </div>
                     <!-- these are the tab for Exp-->
@@ -113,7 +115,7 @@
                         <h3>Social Media App</h3>
                         <p>The app Connect you to the talented people around the worlds.
                             Download it from bio (this is testing link.)</p>
-                        <a href="https://www.instagram.com/toxic_person3/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://www.instagram.com/ig_toxic_person3/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -122,7 +124,7 @@
                         <h3>Testing Apps</h3>
                         <p>The directory that Result to an Unique program to learning stuff.
                             Download it from bio (this is testing link.)</p>
-                        <a href="https://www.instagram.com/toxic_person3/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://www.instagram.com/ig_toxic_person3/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -131,7 +133,7 @@
                         <h3>Data consent</h3>
                         <p>The featured software provides the excellent fetching and pulling Data from server.
                             Download it from bio (this is testing link.)</p>
-                        <a href="https://www.instagram.com/toxic_person3/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        <a href="https://www.instagram.com/ig_toxic_person3/"><i class="fa-solid fa-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -147,7 +149,7 @@
                 <p><i class="fa-solid fa-paper-plane"></i> habib.shah2023@outlook.com</p>
                 <p><i class="fa-sharp fa-solid fa-phone-volume"></i>  +91-8006032039</p>
                 <div class="social-icons">
-                    <a href="https://www.instagram.com/toxic_person3/"><i class="fa-brands fa-instagram"></i></a>   <!--Enter the Url of your  insta social handler between " "-->
+                    <a href="https://www.instagram.com/ig_toxic_person3/"><i class="fa-brands fa-instagram"></i></a>   <!--Enter the Url of your  insta social handler between " "-->
                     <a href="https://github.com/ha7890846"><i class="fa-brands fa-github"></i></a>   <!--Enter the Url of your github social handler between " "-->
                     <a href=""><i class="fa-brands fa-telegram"></i></a>   <!--Enter the Url of your telegram social handler between " "-->
                     <a href="https://twitter.com/looser_Habib"><i class="fa-brands fa-twitter"></i></a>   <!--Enter the Url of your twitter social handler between " "-->
@@ -174,7 +176,7 @@
 <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
 <script>
     var typed =new Typed(".input",{
-        strings:["Coder.","Freelancer.","Developer.","Hire Me :)"],
+        strings:["Love.","Addiction.","Fun.","Everything :)"],
         typeSpeed:120,
         backSpeed:110,
         loop:true
@@ -194,8 +196,8 @@
             for(tabcontent of tabcontents){
                 tabcontent.classList.remove("active-tab");
             }
-            event.currentTarget.classList.add("active-link");
             document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
         }
     </script>
     <script>

@@ -65,18 +65,21 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
     font-family: 'Rancho', cursive;
+    color: #e02626;
 }
 .header-text h2{
     font-size: 46px;
     margin-top: 20px;
-    color: #f60505;
+    color: #de7e1e;
     font-family: 'Rancho', cursive;
 }
+/*Autotyped element*/
 .header-text h2 span{
     font-family: 'Rancho', cursive;
+    color: #139220;
 }
 .header-text h1 span{
-    color:#5b06ef;
+    color: #2fbbe2;
     font-family: 'Rancho', cursive;
 }
 /*----------------about-------------*/
@@ -107,8 +110,9 @@ nav ul li a:hover::after{
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
-    color: aqua;
+    color: rgb(255, 226, 8);
 }
+
 .tab-links{
     margin-right:50px ;
     font-size: 18px;
@@ -120,7 +124,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #94cc07;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -134,12 +138,14 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #ff004f;
+    color: #33ff00;
     font-size: 14px;
 }
 .tab-contents{
     display: none;
-}.tab-contents.active-tab{
+    color: #ddb6b4;
+}
+.tab-contents.active-tab{
     display: block;
 }
 /* ---------------Services----------------*/
